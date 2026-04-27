@@ -37,7 +37,7 @@ Performance Monitoring
 
 # 2. Repository Structure
 
-The GitHub repository should be organized like this:
+The github struture
 
 ```text
 ObjectDetectionWorkflow/
@@ -46,7 +46,7 @@ ObjectDetectionWorkflow/
 │
 ├── Workflow/
 │   └── README.md
-│
+│ 
 ├── Reflection-Learning-Plan/
 │   └── README.md
 │
@@ -935,10 +935,26 @@ The final workflow was:
 
 # 15. References
 
-- MENG3540 Object Detection Workflow project handout
-- Ultralytics YOLOv8 documentation
-- NVIDIA Jetson documentation
-- NVIDIA TensorRT documentation
-- OpenCV documentation
-- PyCUDA documentation
-- Jetson monitoring tools: jtop and tegrastats
+# References
+
+Klöckner, A. (n.d.). *PyCUDA documentation*. Retrieved April 26, 2026, from https://documen.tician.de/pycuda/
+
+NVIDIA. (n.d.). *JetPack SDK 6.2.1*. NVIDIA Developer. Retrieved April 26, 2026, from https://developer.nvidia.com/embedded/jetpack-sdk-621
+
+NVIDIA. (n.d.). *Jetson Linux*. NVIDIA Developer. Retrieved April 26, 2026, from https://developer.nvidia.com/embedded/jetson-linux-r3644
+
+NVIDIA. (2026). *NVIDIA TensorRT documentation*. NVIDIA Docs. Retrieved April 26, 2026, from https://docs.nvidia.com/deeplearning/tensorrt/latest/
+
+NVIDIA. (2026, January 29). *TensorRT’s capabilities*. NVIDIA Docs. https://docs.nvidia.com/deeplearning/tensorrt/10.14.1/architecture/capabilities.html
+
+NVIDIA. (2026, April 7). *Advanced performance measurement techniques*. NVIDIA Docs. https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/measurement-techniques.html
+
+NumPy Developers. (n.d.). *NumPy user guide*. NumPy. Retrieved April 26, 2026, from https://numpy.org/doc/stable/user/
+
+OpenCV. (n.d.). *OpenCV documentation*. OpenCV. Retrieved April 26, 2026, from https://docs.opencv.org/4.x/
+
+Ultralytics. (n.d.). *Ultralytics YOLO documentation*. Ultralytics Docs. Retrieved April 26, 2026, from https://docs.ultralytics.com/
+
+Ultralytics. (n.d.). *YOLOv8*. Ultralytics Docs. Retrieved April 26, 2026, from https://docs.ultralytics.com/models/yolov8/
+
+Humber College. (2026). *MENG3540: Parallel Programming project workflow — Object detection inferencing on GPU edge device* [Course handout].
