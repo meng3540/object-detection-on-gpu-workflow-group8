@@ -4,7 +4,7 @@
 
 This project focuses on developing a complete workflow for real-time object detection on an embedded GPU edge device. The system captures live camera input, runs object detection using a pre-trained YOLOv8 model, displays bounding boxes and class labels, and compares CPU-based inference with GPU-accelerated inference.
 
-The project follows the MENG3540 workflow requirements, which include using accelerated embedded hardware, a pre-trained model, GPU acceleration tools, live camera annotation, performance measurement, and GitHub documentation. The project handout also states that the workflow and analysis must clearly demonstrate the use of GPU resources. :contentReference[oaicite:0]{index=0}
+The project follows all workflow requirements, which include using accelerated embedded hardware, a pre-trained model, GPU acceleration tools, live camera annotation, performance measurement, and GitHub documentation. The project handout also states that the workflow and analysis must clearly demonstrate the use of GPU resources. :contentReference[oaicite:0]{index=0}
 
 ---
 
