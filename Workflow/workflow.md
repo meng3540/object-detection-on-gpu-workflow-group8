@@ -329,7 +329,7 @@ Press `q` to stop the program.
 
 The expected output is a live camera window with object detections.
 
-In the CPU test result, the system detected:
+In the CPU test result, the system should detect several object and the output should look something like this:
 
 ```text
 person 0.76
@@ -337,8 +337,9 @@ clock 0.48
 bottle 0.36
 chair 0.31
 ```
+The CPU image output can be found in the results folder for reference
 
-The displayed FPS was approximately:
+The displayed FPS should be approximately:
 
 ```text
 FPS: 1.47
@@ -532,11 +533,11 @@ This file should be placed in:
 code/yolov8n.engine
 ```
 
-If the TensorRT engine is already provided in the repository, this step can be skipped.
+The TensorRT engine is already provided in the repository, this step can be skipped.
 
 ---
 
-## 8.1 Optional: Export YOLOv8 to ONNX
+## 8.1 Export YOLOv8 to ONNX
 
 Create this file:
 
@@ -618,6 +619,7 @@ code/yolov8n.engine
 ```
 
 ---
+The gpu code can be found in pyfileGPU.py 
 
 ## 9.3 Important GPU Code Sections
 
