@@ -47,8 +47,6 @@ The skills from this project will help me in future work involving:
 - autonomous navigation
 - real-time camera systems
 - edge AI deployment
-- embedded GPU systems
-- computer vision optimization
 
 ---
 
@@ -90,11 +88,11 @@ I also helped identify why the CPU implementation was too slow and why a TensorR
 
 This project showed that I need to improve my knowledge in the following areas:
 
-- Jetson software stack management
-- CUDA version compatibility
-- TensorRT model conversion and runtime execution
-- PyCUDA memory management
-- ONNX model export and debugging
+- Cuda software 
+- The Linux terminal
+- Version compatibility
+- Memory management
+- Debugging
 - GPU profiling and benchmarking
 - Managing Python package versions on embedded systems
 
@@ -107,16 +105,11 @@ The biggest knowledge gap was understanding how PyTorch, CUDA, TensorRT, and Jet
 If this project were scaled for an industry application, additional skills would be required, including:
 
 - More advanced TensorRT optimization
-- INT8 quantization and calibration
 - Batch inference optimization
 - Real-time camera pipeline optimization
 - Multi-camera support
 - Better error handling and logging
-- Docker containers for repeatable deployment
-- Automated performance benchmarking
 - Model accuracy testing with datasets
-- Edge device thermal and power management
-- Deployment with services that start automatically on boot
 
 For an industrial system, the workflow would also need to be more reliable and repeatable. It would need automatic recovery if the camera disconnects, logs for debugging, and a clean installation script for deployment.
 
@@ -132,7 +125,6 @@ To improve, I would use the following resources:
 - OpenCV tutorials
 - CUDA programming tutorials
 - PyCUDA examples
-- ONNX export and model conversion guides
 - Jetson performance profiling guides
 - Real-time computer vision deployment examples
 
@@ -142,8 +134,6 @@ I would also practice by building more small edge AI projects, such as:
 - license plate detection
 - robot obstacle detection
 - gesture detection
-- industrial part inspection
-- TensorRT INT8 optimized models
 
 ---
 
