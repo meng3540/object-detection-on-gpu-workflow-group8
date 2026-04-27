@@ -238,7 +238,7 @@ The CPU implementation uses:
 yolov8n.pt
 ```
 
-Place this file inside:
+This can be found in the code folder
 
 ```text
 code/yolov8n.pt
@@ -253,6 +253,8 @@ model = YOLO("yolov8n.pt")
 ---
 
 ## 5.3 CPU Python File
+
+The code is already provided in the code folder so this part can be skipped
 
 Create this file:
 
