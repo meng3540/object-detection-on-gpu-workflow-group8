@@ -7,7 +7,7 @@ This workflow explains how to set up and run a real-time object detection system
 1. **CPU baseline implementation** using YOLOv8 through Ultralytics.
 2. **GPU optimized implementation** using a TensorRT engine with PyCUDA.
 
-The project goal is to capture a live camera feed, run object detection, draw bounding boxes and class labels, measure performance, and clearly demonstrate the use of GPU resources. The project handout requires the workflow to include system setup, model integration, results, references, and code stored in a `code` folder.
+The project goal is to capture a live camera feed, run object detection, draw bounding boxes and class labels, measure performance, and clearly demonstrate the use of GPU resources. The project requires the workflow to include system setup, model integration, results, references, and code.
 
 ---
 
